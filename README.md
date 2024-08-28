@@ -16,6 +16,8 @@ This project is a x64-based Windows memory dumper, implemented as a dynamic link
 - **Process and Module Dumping**: The dumper provides two modes of operation:
   1. **Current Process Dumping**: Dump the memory of the process it is injected into.
   2. **Module Iteration and Dumping**: Iterate through all loaded modules in the current process and dump each one individually.
+  
+- **Output Folder**: Generates a folder on the desktop with a timestamp containing all the dumped binaries.
 
 ## Usage
 
